@@ -165,10 +165,30 @@ _G.packer_plugins = {
     path = "/home/barouki/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-mma"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-mma",
+    url = "https://github.com/voldikss/vim-mma"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
