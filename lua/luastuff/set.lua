@@ -27,4 +27,16 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
+vim.g.airline_extensions_tabline_enabled = 1
+vim.g.airline_extensions_tabline_formatter = "default"
+vim.g.airline_theme = "tomorrow"
 
+vim.g.airline_left_sep = ''
+vim.g.airline_left_alt_sep = ''
+vim.g.airline_right_sep = ''
+vim.g.airline_right_alt_sep = ''
+vim.g.airline_symbols_branch = ''
+vim.g.airline_symbols_readonly = ''
+vim.g.airline_symbols_linenr = '☰'
+vim.g.airline_symbols_maxlinenr = ''
+vim.g.airline_symbols_dirty='⚡'
