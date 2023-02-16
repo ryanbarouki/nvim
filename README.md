@@ -1,7 +1,7 @@
 # Various workflow dot files
 ## Things to do when setting up:
-1. Put the contents of this repo in `~/.config/nvim`
-2. Symlink `.bashrc` and `.tmux.config` to home directory like so:
+1. Clone this repo in `~/.config`
+2. Symlink to home directory like so:
   ```
   ln -s ~/.config/nvim/.bashrc ~/.bashrc
   ln -s ~/.config/nvim/.tmux.conf ~/.tmux.conf
