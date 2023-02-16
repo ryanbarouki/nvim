@@ -34,3 +34,5 @@ Type `:so` and then `:PackerSync` and watch your plugins install
 6. Open nvim `nvim .` go to `lua/luastuff/packer.lua`. 
 Type `:so` and then `:PackerSync` and watch your plugins be installed
 
+## Workflow TODOs
+1. find a nicer way to copy to system buffer and vim buffers
