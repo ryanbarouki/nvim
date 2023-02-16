@@ -79,3 +79,5 @@ alias gs='git status'
 # fuzzy finding shortcut
 alias sd="cd ~ && cd \$(find ~/.config/* ~/.local/* * -type d | fzf)"
 alias sdo="cd ~ && cd \$(find ~/.config/* ~/.local/* * -type d | fzf) && nvim ."
+
+eval "$(starship init bash)"
