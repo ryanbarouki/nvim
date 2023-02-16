@@ -12,4 +12,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 curl -fsSL https://starship.rs/install.sh | sh
 
-cp ~/.config/nvim/Sauce Code Pro Nerd Font Complete.ttf ~/.fonts/Sauce Code Pro Nerd Font Complete.ttf
+mkdir ~/.fonts
+cp Sauce\ Code\ Pro\ Nerd\ Font\ Complete.ttf ~/.fonts/Sauce\ Code\ Pro\ Nerd\ Font\ Complete.ttf

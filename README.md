@@ -1,5 +1,16 @@
 # Various workflow dot files
 ## Things to do when setting up:
+### Automatic install
+1. Clone this repo in `~/.config`
+2. If you want all of the features that I use then run this shell script
+    ```
+    chmod +x install.sh
+    ./install.sh
+    ```
+3. Open nvim `nvim .` go to `lua/luastuff/packer.lua`. 
+Type `:so` and then `:PackerSync` and watch your plugins install
+
+### Manual install
 1. Clone this repo in `~/.config`
 2. Symlink to home directory like so:
   ```
@@ -18,12 +29,8 @@
     ```
     cp ~/.config/nvim/Sauce Code Pro Nerd Font Complete.ttf ~/.fonts/Sauce Code Pro Nerd Font Complete.ttf
     ```
-
-Add more steps as you find them. Most definitely have missed something
+    you can now use this as your font in your terminal preferences.
 
 6. Open nvim `nvim .` go to `lua/luastuff/packer.lua`. 
 Type `:so` and then `:PackerSync` and watch your plugins be installed
-
-## TODO
-Add the symbolic linking to a shell script that you can run to sort all this out
 
