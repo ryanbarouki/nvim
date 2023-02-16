@@ -5,6 +5,7 @@
   ```
   ln -s ~/.config/nvim/.bashrc ~/.bashrc
   ln -s ~/.config/nvim/.tmux.conf ~/.tmux.conf
+  ln -s ~/.config/nvim/.gitconfig ~/.gitconfig
   ```
 2. Install tmux plugin manager https://github.com/tmux-plugins/tpm
 3. Install packer neovim plugin manager https://github.com/wbthomason/packer.nvim

@@ -1,0 +1,15 @@
+[user]
+	email = ryanbarouki@gmail.com
+	name = Ryan Barouki
+[credential]
+	helper = store
+[diff]
+	tool = vimdiff3
+[difftool "vimdiff3"]
+	path = nvim
+[merge]
+	tool = vimdiff3
+[mergetool "vimdiff3"]
+	path = nvim
+[difftool]
+	prompt = false
