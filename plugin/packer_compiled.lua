@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/barouki/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["leap.nvim"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/leap.nvim",
+    url = "https://github.com/ggandor/leap.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/barouki/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -184,6 +189,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-mma",
     url = "https://github.com/voldikss/vim-mma"
+  },
+  ["vim-repeat"] = {
+    loaded = true,
+    path = "/home/barouki/.local/share/nvim/site/pack/packer/start/vim-repeat",
+    url = "https://github.com/tpope/vim-repeat"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,

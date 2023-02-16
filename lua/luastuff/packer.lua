@@ -29,6 +29,8 @@ return require('packer').startup(function(use)
     use('christoomey/vim-tmux-navigator')
     use('vim-airline/vim-airline')
     use('vim-airline/vim-airline-themes')
+    use('tpope/vim-repeat')
+    use('ggandor/leap.nvim')
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v1.x',
