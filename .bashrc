@@ -1,7 +1,12 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-export PS1="\n🐧 \u in \[\e[1;32m\][\w]\n\[\e[1;37m\]┗━━\[\e[0m\] \$ "
+#
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="\n🐧 \u in \[\e[1;32m\][\w]\[\e[1;37m\]\$(parse_git_branch)\[\033[00m\]\n ┗━━\[\e[0m\] $ "
 export PATH=$PATH:/home/ryanbarouki/.local/bin
 # If not running interactively, don't do anything
 case $- in
@@ -68,4 +73,5 @@ alias pip='pip3'
 alias gs='git status'
 
 # fuzzy finding shortcut
-alias sd="cd ~ && cd \$(find ~/.config/* ~/.local/* * -type d | fzf) && nvim ."
+alias sd="cd ~ && cd \$(find ~/.config/* ~/.local/* * -type d | fzf)"
+alias sdo="cd ~ && cd \$(find ~/.config/* ~/.local/* * -type d | fzf) && nvim ."
